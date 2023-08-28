@@ -1,8 +1,0 @@
-namespace progress_view {
-
-    [default_interface]
-    runtimeclass ProgressViewView : Windows.UI.Xaml.Controls.ProgressBar {
-        ProgressViewView(Microsoft.ReactNative.IReactContext context);
-        void UpdateProperties(Microsoft.ReactNative.IJSValueReader reader);
-    };
-} // namespace progress_view
