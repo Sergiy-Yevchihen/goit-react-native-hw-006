@@ -164,24 +164,7 @@ export default function CreatePostsScreen() {
               </TouchableOpacity>
             </ImageBackground>
           ) : (
-            // <Camera style={styles.postPhotoWrap} type={type} ref={setCameraRef}>
-            //   <MaterialCommunityIcons
-            //     name="camera-flip"
-            //     size={22}
-            //     color={"#BDBDBD"}
-            //     style={styles.flipContainer}
-            //     onPress={() => {
-            //       setType(
-            //         type === Camera.Constants.Type.back
-            //           ? Camera.Constants.Type.front
-            //           : Camera.Constants.Type.back
-            //       );
-            //     }}
-            //   />
-            //   <TouchableOpacity style={styles.cameraBtn} onPress={makePhoto}>
-            //     <Ionicons name="ios-camera" size={24} color={"#BDBDBD"} />
-            //   </TouchableOpacity>
-            // </Camera>
+           
             <Camera
               style={styles.postPhotoWrap}
               type={Camera.Constants.Type.back}
